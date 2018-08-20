@@ -1,0 +1,14 @@
+{
+  "name": "python-dynamo-offline",
+  "description": "",
+  "version": "0.1.0",
+  "dependencies": {
+    "serverless-dynamodb-client": "0.0.2",
+    "serverless-dynamodb-local": "^0.2.31"
+  },
+  "devDependencies": {
+    "serverless-offline": "^3.25.8",
+    "serverless-offline-python": "^3.21.2",
+    "serverless-python-requirements": "^4.1.1"
+  }
+}

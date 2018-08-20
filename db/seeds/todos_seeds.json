@@ -1,0 +1,23 @@
+[
+  {
+    "id": "44ecf430-a303-11e8-a658-72a1b49833ae",
+    "text": "Do laundry",
+    "checked": false,
+    "createdAt": 1534610046261,
+    "updatedAt": 1534610046261
+  },
+  {
+    "id": "4b23236a-a303-11e8-a658-72a1b49833ae",
+    "text": "Feed pets",
+    "checked": false,
+    "createdAt": 1534610046261,
+    "updatedAt": 1534610046261
+  },
+  {
+    "id": "2d94bf52-a303-11e8-a658-72a1b49833ae",
+    "text": "Water the plants",
+    "checked": false,
+    "createdAt": 1534610046261,
+    "updatedAt": 1534610046261
+  }
+]
