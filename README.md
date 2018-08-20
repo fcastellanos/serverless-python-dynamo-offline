@@ -1,5 +1,11 @@
 ## Serverless with Python + DynamoDB offline
 
+### Create
+If you want to create a brand new serverless python 3 service you type...
+```
+$ serverless create --template aws-python3 --name myproject --path myproject
+```
+
 ### Install
 ```
 $ sls plugin install -n serverless-python-requirements
