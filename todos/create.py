@@ -5,10 +5,10 @@ import time
 import uuid
 
 import boto3
-dynamodb = boto3.resource('dynamodb')
-
 
 def create(event, context):
+    dynamodb = db_utils.db_picker(event)
+
     data = json.loads(event['body'])
     if 'text' not in data:
         logging.error("Validation Failed")

@@ -3,6 +3,7 @@
 env/
 build/
 develop-eggs/
+node_modules/
 dist/
 downloads/
 eggs/
@@ -15,6 +16,10 @@ var/
 *.egg-info/
 .installed.cfg
 *.egg
+
+todos/__pycache__/*
+
+.dynamodb/
 
 # Serverless directories
 .serverless

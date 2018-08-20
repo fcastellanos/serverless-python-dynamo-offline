@@ -60,11 +60,11 @@ plugins:
   - serverless-python-requirements
   - serverless-dynamodb-local
   - serverless-offline-python
-
 custom:
   dynamodb:
     start:
       migrate: true
+      seed: true
     seed:
       test:
         sources:

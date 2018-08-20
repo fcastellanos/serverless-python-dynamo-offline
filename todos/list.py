@@ -2,11 +2,12 @@ import json
 import os
 
 from todos import decimalencoder
+from todos import db_utils
 import boto3
-dynamodb = boto3.resource('dynamodb')
-
 
 def list(event, context):
+    dynamodb = db_utils.db_picker(event)
+
     table = dynamodb.Table(os.environ['DYNAMODB_TABLE'])
 
     # fetch all todos from the database
