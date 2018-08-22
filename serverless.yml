@@ -33,9 +33,6 @@ functions:
           method: get
           cors: true
 
-  hello:
-    handler: handler.hello
-
 resources:
   Resources:
     TodosDynamoDbTable:

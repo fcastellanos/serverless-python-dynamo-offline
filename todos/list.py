@@ -3,6 +3,8 @@ import os
 
 from todos import decimalencoder
 from todos import db_utils
+
+# NOTE: We might not need to import boto3 because it's already done in db_utils?
 import boto3
 
 def list(event, context):
@@ -13,7 +15,7 @@ def list(event, context):
     # fetch all todos from the database
     result = table.scan()
 
-    # create a response 
+    # create a response
     response = {
         "statusCode": 200,
         "body": json.dumps(result['Items'], cls=decimalencoder.DecimalEncoder),
