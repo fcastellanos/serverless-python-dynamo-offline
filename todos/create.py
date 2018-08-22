@@ -10,7 +10,7 @@ def create(event, context):
     dynamodb = db_utils.db_picker(event)
 
     data = json.loads(event['body'])
-    if 'text' not in data:
+    if 'activity_title' not in data:
         logging.error("Validation Failed")
         raise Exception("Couldn't create the todo item.")
         return
@@ -21,7 +21,10 @@ def create(event, context):
 
     item = {
         'id': str(uuid.uuid1()),
-        'text': data['text'],
+        'activity_title': data['activity_title'],
+        'activity_description': data['activity_description'],
+        'time': data['time'],
+        'period': data['period'],
         'checked': False,
         'createdAt': timestamp,
         'updatedAt': timestamp,

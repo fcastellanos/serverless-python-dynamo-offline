@@ -1,22 +1,31 @@
 [
   {
     "id": "44ecf430-a303-11e8-a658-72a1b49833ae",
-    "text": "Do laundry",
+    "activity_title": "Do laundry",
+    "activity_description": "Do different loads whites/colors",
     "checked": false,
+    "time": "9",
+    "period": "AM",
     "createdAt": 1534610046261,
     "updatedAt": 1534610046261
   },
   {
     "id": "4b23236a-a303-11e8-a658-72a1b49833ae",
-    "text": "Feed pets",
+    "activity_title": "Feed pets",
+    "activity_description": "Cat, Dog, Chameleon",
     "checked": false,
+    "time": "11",
+    "period": "AM",
     "createdAt": 1534610046261,
     "updatedAt": 1534610046261
   },
   {
     "id": "2d94bf52-a303-11e8-a658-72a1b49833ae",
-    "text": "Water the plants",
+    "activity_title": "Water the plants",
+    "activity_description": "Indoors/Outdoors",
     "checked": false,
+    "time": "3",
+    "period": "PM",
     "createdAt": 1534610046261,
     "updatedAt": 1534610046261
   }
