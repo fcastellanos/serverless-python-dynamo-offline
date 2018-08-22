@@ -7,6 +7,8 @@ $ serverless create --template aws-python3 --name myproject --path myproject
 ```
 
 ### Install
+Docker is needed for the plugin `serverless-python-requirements`.
+
 ```
 $ sls plugin install -n serverless-python-requirements
 $ npm install --save serverless-dynamodb-local
