@@ -6,6 +6,8 @@ import uuid
 
 import boto3
 
+from todos import db_utils
+
 def create(event, context):
     dynamodb = db_utils.db_picker(event)
 
