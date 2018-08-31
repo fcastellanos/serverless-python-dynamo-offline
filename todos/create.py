@@ -25,6 +25,7 @@ def create(event, context):
         'id': str(uuid.uuid1()),
         'activity_title': data['activity_title'],
         'activity_description': data['activity_description'],
+        'date': data['date'],
         'time': data['time'],
         'period': data['period'],
         'checked': False,
