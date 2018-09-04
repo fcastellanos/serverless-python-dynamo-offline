@@ -4,8 +4,7 @@
     "activity_title": "Do laundry",
     "activity_description": "Do different loads whites/colors",
     "checked": false,
-    "time": "9",
-    "period": "AM",
+    "date_time": "09/04/2018 12:00 AM",
     "createdAt": 1534610046261,
     "updatedAt": 1534610046261
   },
@@ -14,8 +13,7 @@
     "activity_title": "Feed pets",
     "activity_description": "Cat, Dog, Chameleon",
     "checked": false,
-    "time": "11",
-    "period": "AM",
+    "date_time": "09/04/2018 12:00 AM",
     "createdAt": 1534610046261,
     "updatedAt": 1534610046261
   },
@@ -24,8 +22,7 @@
     "activity_title": "Water the plants",
     "activity_description": "Indoors/Outdoors",
     "checked": false,
-    "time": "3",
-    "period": "PM",
+    "date_time": "09/04/2018 12:00 AM",
     "createdAt": 1534610046261,
     "updatedAt": 1534610046261
   }
